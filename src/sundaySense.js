@@ -1,3 +1,4 @@
+
 define([
     'qlik',
     'jquery',
@@ -14,11 +15,26 @@ define([
         template: template,
         initialProperties: initProps,
         definition: def,
-        paint: function (element, layout) {
-            console.log('hello from main js');
-        }, // paint end
         controller: ['$scope', function ($scope) {
-            console.log('Hello from Cntrl');
+            console.log($scope.layout)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }]
     } // return end
 }); // module end

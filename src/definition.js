@@ -13,6 +13,11 @@ define( [], function () {
         min: 0,
         max: 1
     };
+
+    var sorting = {
+        uses: 'sorting'
+    }
+
 // *****************************************************************************
 // Appearance section
 // *****************************************************************************
@@ -29,6 +34,7 @@ define( [], function () {
         items: {
             dimensions: dimensions,
             measures: measures,
+            sorting: sorting,
             appearance: appearanceSection
         }
     };
